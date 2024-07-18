@@ -8,19 +8,19 @@ Este proyecto utiliza un modelo de lenguaje avanzado para generar recomendacione
 
 
 ## Estructura
-  • app_record.py: código para la aplicación, guardando los datos de entrada y la respuesta en AWS
+    • app_record.py: código para la aplicación, guardando los datos de entrada y la respuesta en AWS
 
-  • app.py: código para la aplicación, sin guardar datos
+    • app.py: código para la aplicación, sin guardar datos
 
-  • BasedeDatos.ipynb: notebook para creación de base de datos en AWS y para poder revisar ingesta de datos
+    • BasedeDatos.ipynb: notebook para creación de base de datos en AWS y para poder revisar ingesta de datos
 
-  • dockerfile: archivo docker para correr la app en Docker
+    • dockerfile: archivo docker para correr la app en Docker
 
-  • requirements.txt : requerimientos para uso de la app
+    • requirements.txt : requerimientos para uso de la app
 
-  • index.hmtl: archivo de estructura de página web
+    • index.hmtl: archivo de estructura de página web
 
-  • test_app.py: código para probar la app
+    • test_app.py: código para probar la app
 
 
 ## Instalación a través de Docker
