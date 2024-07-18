@@ -22,6 +22,8 @@ Este proyecto utiliza un modelo de lenguaje avanzado para generar recomendacione
 
     • test_app.py: código para probar la app
 
+    • static: carpeta para imágenes utilizadas en el proyecto y en el README
+
 
 ## Instalación a través de Docker
   1. Descarga la imagen desde Docker Hub: 
