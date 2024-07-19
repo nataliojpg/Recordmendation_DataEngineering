@@ -1,5 +1,5 @@
 
-![Banner](./static/banner_app.jpg)
+![Banner](./static/banner_app1.png)
 # Recordmendation_DataEngineering
 
 Recordmendation es una aplicación de IA generativa que permite a los usuarios descubrir nuevas canciones basadas en sus preferencias musicales. El nombre combina "record" (disco musical) y "recommendation" (recomendación), reflejando su funcionalidad principal: recomendar música a los usuarios.
