@@ -1,0 +1,6 @@
+fastapi==0.111.1
+uvicorn==0.30.1
+openai==1.35.14
+PyMySQL==1.1.1
+langchain==0.2.9
+langchain-core==0.2.21
