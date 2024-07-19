@@ -1,12 +1,14 @@
 
 ![Banner](./static/banner_app1.png)
-# Recordmendation_DataEngineering
+# 📀Recordmendation📀 - DataEngineering 
 
 Recordmendation es una aplicación de IA generativa que permite a los usuarios descubrir nuevas canciones basadas en sus preferencias musicales. El nombre combina "record" (disco musical) y "recommendation" (recomendación), reflejando su funcionalidad principal: recomendar música a los usuarios.
 
 
+
 ## Descripción del Proyecto
 Este proyecto utiliza un modelo de lenguaje avanzado (OpenAI) para generar recomendaciones musicales personalizadas. Los usuarios interactúan con la aplicación proporcionando el nombre de una canción y su intérprete, y a cambio reciben una lista de 5 canciones recomendadas que podrían gustarles, basadas en el input inicial. Los datos ingresados se guardarán en una base de datos en **AWS**, con las columnas "canción", "artista" y "response". También se utilizó **Langchain** para el prompt.
+
 
 
 ## Estructura
@@ -25,12 +27,14 @@ Este proyecto utiliza un modelo de lenguaje avanzado (OpenAI) para generar recom
     • static: carpeta para imágenes utilizadas en el proyecto y en el README
 
 
+
 ## Instalación a través de Docker
   1. Descarga la imagen desde Docker Hub: 
-       docker pull nataliojpg/app_recordmendation
+       docker pull nataliojpg/app_recordmendation (link de dockerhub:  https://hub.docker.com/r/nataliojpg/app_recordmendation)
      
   2. Ejecuta el contenedor:
        docker run -p 8000:8000 nataliojpg/app_recordmendation
+
 
 
 ## Uso
@@ -39,6 +43,7 @@ Este proyecto utiliza un modelo de lenguaje avanzado (OpenAI) para generar recom
   2. Ingresa el nombre de una canción y su intérprete en los campos.
 
   3. Envía el formulario y espera las recomendaciones generadas por el modelo de IA.
+
 
 
 ## Herramientas
@@ -57,4 +62,6 @@ Este proyecto utiliza un modelo de lenguaje avanzado (OpenAI) para generar recom
    • HTML
 
    • Langchain
+
+   # ♫⋆｡♪ ₊˚♬
    
