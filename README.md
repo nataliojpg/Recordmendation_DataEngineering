@@ -1,16 +1,16 @@
+
+![Banner](./static/banner_app.jpg)
 # Recordmendation_DataEngineering
 
 Recordmendation es una aplicación de IA generativa que permite a los usuarios descubrir nuevas canciones basadas en sus preferencias musicales. El nombre combina "record" (disco musical) y "recommendation" (recomendación), reflejando su funcionalidad principal: recomendar música a los usuarios.
 
 
 ## Descripción del Proyecto
-Este proyecto utiliza un modelo de lenguaje avanzado para generar recomendaciones musicales personalizadas. Los usuarios interactúan con la aplicación proporcionando el nombre de una canción y su intérprete, y a cambio reciben una lista de 5 canciones recomendadas que podrían gustarles, basadas en el input inicial.
+Este proyecto utiliza un modelo de lenguaje avanzado (OpenAI) para generar recomendaciones musicales personalizadas. Los usuarios interactúan con la aplicación proporcionando el nombre de una canción y su intérprete, y a cambio reciben una lista de 5 canciones recomendadas que podrían gustarles, basadas en el input inicial. Los datos ingresados se guardarán en una base de datos en **AWS**, con las columnas "canción", "artista" y "response". También se utilizó **Langchain** para el prompt.
 
 
 ## Estructura
     • app_record.py: código para la aplicación, guardando los datos de entrada y la respuesta en AWS
-
-    • app.py: código para la aplicación, sin guardar datos
 
     • BasedeDatos.ipynb: notebook para creación de base de datos en AWS y para poder revisar ingesta de datos
 
@@ -27,14 +27,14 @@ Este proyecto utiliza un modelo de lenguaje avanzado para generar recomendacione
 
 ## Instalación a través de Docker
   1. Descarga la imagen desde Docker Hub: 
-       docker pull nataliojpg/recordmendation
+       docker pull nataliojpg/app_recordmendation
      
   2. Ejecuta el contenedor:
-       docker run -p 4000:4000 nataliojpg/recordmendation
+       docker run -p 8000:8000 nataliojpg/app_recordmendation
 
 
 ## Uso
-  1. Accede a la interfaz web en http://localhost:4000 en el navegador.
+  1. Accede a la interfaz web en http://localhost:8000 en el navegador.
 
   2. Ingresa el nombre de una canción y su intérprete en los campos.
 
@@ -55,4 +55,6 @@ Este proyecto utiliza un modelo de lenguaje avanzado para generar recomendacione
    • Docker
    
    • HTML
+
+   • Langchain
    
