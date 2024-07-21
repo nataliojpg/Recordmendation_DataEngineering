@@ -9,8 +9,8 @@ COPY . /app
 # Instalar las dependencias
 RUN pip install -r requirements.txt
 
-# Exponer el puerto 4000
-EXPOSE 4000
+# Exponer el puerto 8000
+EXPOSE 8000
 
 # Comando para ejecutar la aplicación
 CMD ["python", "app_record.py"]
