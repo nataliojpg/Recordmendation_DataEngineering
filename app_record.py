@@ -23,10 +23,10 @@ prompt_template = PromptTemplate.from_template(
 
 # Conectar con la base de datos
 DB_CONFIG = {
-    'host': 'datos-api-record.cp2aaumeq6eu.eu-north-1.rds.amazonaws.com',
-    'port': 3306,
-    'user': 'admin',
-    'password': '12345678',
+    'host': 'tu-host',
+    'port': <tu puerto>,
+    'user': 'tu-user',
+    'password': 'tu-contraseña',
     'database': 'query_songs',
     'charset': 'utf8mb4',
     'cursorclass': pymysql.cursors.DictCursor
